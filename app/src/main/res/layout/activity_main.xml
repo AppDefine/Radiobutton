@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            android:id="@+id/tx"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="25dp"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One"
+            android:id="@+id/one"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two"
+            android:id="@+id/two"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Three"
+            android:id="@+id/three"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Four"
+            android:id="@+id/four"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Five"
+            android:id="@+id/five"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Six"
+            android:id="@+id/six"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seven"
+            android:id="@+id/seven"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eight"
+            android:id="@+id/eight"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nine"
+            android:id="@+id/nine"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten"
+            android:id="@+id/ten"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
